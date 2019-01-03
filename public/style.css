@@ -3,6 +3,22 @@
  * but feel free to change me to your heart's content!
  */
 
+.nav-item {
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+  justify-content: flex-end;
+  /* flex-wrap: nowrap; */
+}
+
+#nav-item-box {
+  /* display: flex; */
+  /* flex: 0 0 25%; */
+  margin: 20px;
+  font-size: 1em;
+  font-weight: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -34,10 +50,10 @@ h1 {
   flex-direction: column;
 }
 
-.aligner {
+/* .aligner {
   margin: 10px;
   text-align: left;
-}
+} */
 
 .carousel-image {
   position: relative;

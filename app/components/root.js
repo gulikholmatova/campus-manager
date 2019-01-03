@@ -11,9 +11,6 @@ import SingleCampus from './SingleCampus';
 const Root = () => {
   return (
     <div>
-      <Link to="/">
-        <nav>Home page</nav>
-      </Link>
       <Navbar />
       <Route exact path="/" component={Welcome} />
       <Route exact path="/students" component={Students} />
