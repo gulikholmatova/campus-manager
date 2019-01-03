@@ -1,0 +1,37 @@
+[
+    {
+        "firstName": "Grace",
+        "lastName": "Hopper",
+        "email": "grace@gmail.com",
+        "gpa": 4,
+        "campusId": 2
+    },
+    {
+        "firstName": "Alan",
+        "lastName": "Turing",
+        "email": "alan@gmail.com",
+        "gpa": 4,
+        "campusId": 1
+    },
+    {
+        "firstName": "Cody",
+        "lastName": "Pug",
+        "email": "cody@gmail.com",
+        "gpa": 4,
+        "campusId": 3
+    },
+    {
+        "firstName": "Rue",
+        "lastName": "Kitten",
+        "email": "rue@gmail.com",
+        "gpa": 4,
+        "campusId": 4
+    },
+    {
+        "firstName": "Guli",
+        "lastName": "Kholmatova",
+        "email": "guli@gmail.com",
+        "gpa": 3.8,
+        "campusId": 2
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Fullstack Academy",
+        "address": "5 Hanover Sq.",
+        "description": "Coding Bootcamp"
+    },
+    {
+        "name": "Grace Hopper Academy",
+        "address": "5 Hanover Sq.",
+        "description": "Female Coding Bootcamp"
+    },
+    {
+        "name": "Cody's Bootcamp",
+        "address": "15 Wall St.",
+        "description": "Puggies Coding Bootcamp"
+    },
+    {
+        "name": "Rue's Bootcamp",
+        "address": "125 Pearl St.",
+        "description": "Kittens Coding Bootcamp"
+    }
+]
