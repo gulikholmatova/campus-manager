@@ -10,4 +10,4 @@ I built his project using the NERD stack:
 
 1. `npm install`
 2. `npm run start:dev`.
-3. You should now see 'Listening on port 4000' logged out in the terminal.
+3. You should now see "Listening on port 4000" logged out in the terminal.
