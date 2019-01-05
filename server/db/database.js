@@ -16,8 +16,8 @@ console.log(chalk.yellow('Opening database connection'));
 
 // create the database instance that can be used in other database files
 const db = new Sequelize(dbUrl, {
-  logging: false,
-  operatorsAliases: false, // so we don't see all the SQL queries getting made
+  logging: false, // so we don't see all the SQL queries getting made
+  operatorsAliases: false,
 });
 
 module.exports = db;
