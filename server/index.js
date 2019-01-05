@@ -29,7 +29,7 @@ app.use((err, req, res, next) => {
 });
 
 // Setting up a Port:
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 db.sync() // if you update your db schemas, make sure you drop the tables first and then recreate them
   .then(() => {

@@ -1,7 +1,7 @@
 'use strict';
 
 const { resolve } = require('path');
-
+const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   entry: ['babel-polyfill', './app/main'],
   output: {
