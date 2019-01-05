@@ -50,5 +50,8 @@
     "eslint-plugin-react": "^7.8.2",
     "style-loader": "^0.21.0",
     "volleyball": "^1.5.1"
+  },
+  "engines": {
+    "node": "v11.6.0"
   }
 }
