@@ -34,9 +34,16 @@ const PORT = process.env.PORT || 4000;
 db.sync() // if you update your db schemas, make sure you drop the tables first and then recreate them
   .then(() => {
     console.log('db synced');
-    app.listen(PORT, () =>
-      console.log(`studiously serving silly sounds on port ${PORT}`)
-    );
+    // app.listen(PORT, () =>
+    //   console.log(`studiously serving silly sounds on port ${PORT}`)
+    // );
   });
 
 module.exports = app;
+
+if (require.main === module) {
+  app.listen(PORT, e => {
+    if (e) throw e;
+    console.log(`listening on port ${PORT}`);
+  });
+}
